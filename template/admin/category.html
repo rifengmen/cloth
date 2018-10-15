@@ -1,55 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>首页</title>
-    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../static/css/index.css">
-    <script src="../static/js/jquery-3.3.1.min.js"></script>
-    <script src="../static/js/category.js"></script>
-</head>
-<body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <div class="navbar-brand" href="#">***后台管理系统</div>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li><button type="button" class="btn navbar-btn btn-info">login out</button></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php
+    include_once './header.php';
+?>
 <main>
-    <section class="mainLeft">
-        <h3>菜单列表</h3>
-        <h4>
-            栏目管理
-            <i class="iconfont icon-xiala"></i>
-        </h4>
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-success">
-                <a href="querycategory.php">查看栏目</a>
-            </li>
-            <li class="list-group-item list-group-item-info">
-                <a href="queryinsert.php">添加栏目</a>
-            </li>
-        </ul>
-        <h4>
-            栏目管理
-            <i class="iconfont icon-xiala"></i>
-        </h4>
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-success">
-                <a href="">查看栏目</a>
-            </li>
-            <li class="list-group-item list-group-item-info">
-                <a href="">添加栏目</a>
-            </li>
-        </ul>
-    </section>
+    <?php
+        include_once './slide.php';
+    ?>
     <section class="mainRight">
         <table class="table table-bordered table-hover">
             <tr>
@@ -57,13 +12,18 @@
                 <th>标题</th>
                 <th>介绍</th>
                 <th>pid</th>
+                <th>操作</th>
             </tr>
             <?php for($i = 0; $i < count($res); $i++){ ?>
             <tr>
                 <td> <?php echo $res[$i]['id']; ?> </td>
-                <td> <?php echo $res[$i]['title']; ?> </td>
-                <td> <?php echo $res[$i]['des']; ?> </td>
-                <td> <?php echo $res[$i]['pid']; ?> </td>
+                <td type="title"> <?php echo $res[$i]['title']; ?> </td>
+                <td type="des"> <?php echo $res[$i]['des']; ?> </td>
+                <td class="btns"> <?php echo $res[$i]['pid']; ?> </td>
+                <td>
+                    <a href="updatecategory.php?id=<?php echo $res[$i]['id']; ?>" class="btn btn-success btn-sm">修改</a>
+                    <a href="delcategory.php?id=<?php echo $res[$i]['id']; ?>" class="btn btn-danger btn-sm">删除</a>
+                </td>
             </tr>
             <?php } ?>
         </table>
