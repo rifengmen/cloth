@@ -9,7 +9,8 @@ if (count($res)) {
     $url = "querycategory.php";
 }
 else {
-    $sql = "delete from category where id=$id";
+    $sql1 = "delete from category where id=$id";
+    $mysql -> query($sql1);
     if ($mysql -> affected_rows == 1) {
         $message = "数据删除成功";
         $panel = "success";

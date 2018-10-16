@@ -1,21 +1,25 @@
 <?php
 // 创建一个类
 class Menu {
-    // 定义一个属性
+    // 定义一个属性（变量）
     public $str;
-    // 构造函数
+    // 构造函数（通过构造函数可以实例化出一个对象）
     function __construct()
     {
-        // 定义为空的字符串
+        // 设置构造函数的属性（变量为空字符串）
         $this -> str = "";
     }
-    // 拿到所有的栏目
-    // 定义一个方法      传入各项参数  查询第一层级
+    // 给类定义一个方法
+    // 拿到所有的栏目  连接数据库  定位那张表  定位那一栏 几级标题  id值          传入各项参数  查询第一层级
     function getCate($mysql,$tablename,$parentid,$flag,$currentid=null)
     {
-        $pid = null;
+        // 设置pid为空
+        static $pid = null;
+        // 当id值存在时
         if ($currentid) {
+            // 查询数据库返回关联数组
             $arr = $mysql -> query("select * from category where id=$currentid") -> fetch_assoc();
+            // 将查询到的pid值赋给$pid
             $pid = $arr['pid'];
         }
         // sql查询语句

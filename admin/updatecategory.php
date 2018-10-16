@@ -11,5 +11,29 @@ if ( $_SERVER["REQUEST_METHOD"] == "GET") {
     include_once "../template/admin/updatecategory.html";
 }
 else if( $_SERVER["REQUEST_METHOD"] == "POST" ) {
-
+    $arr = $_POST;
+    $id1 = $arr['id'];
+    array_pop($arr);
+    $sql = "update category set ";
+    foreach ($arr as $key => $value) {
+        $sql .= "$key='$value',";
+    }
+    $sql = substr($sql,0,-1) . "where id=$id1";
+//    $id1 = $_POST['id'];
+//    $title = $_POST['title'];
+//    $des = $_POST['des'];
+//    $pid = $_POST['pid'];
+//    $sql = "update category set title='$title',des='$des',pid='$pid' where id='$id1'";
+    $mysql -> query($sql);
+    if ($mysql -> affected_rows == 1) {
+        $message = "修改成功";
+        $panel = "success";
+        $url = "querycategory.php";
+    }
+    else {
+        $message = "修改失败";
+        $panel = "danger";
+        $url = "querycategory.php?=" . $id1;
+    }
+    include_once "../template/admin/notice.html";
 }

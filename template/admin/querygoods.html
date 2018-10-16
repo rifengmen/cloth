@@ -1,0 +1,35 @@
+<?php
+    include_once './header.php';
+?>
+<main>
+    <?php
+        include_once './slide.php';
+    ?>
+    <section class="mainRight">
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>id</th>
+                <th>标题</th>
+                <th>介绍</th>
+                <th>品牌</th>
+                <th>cid</th>
+                <th>操作</th>
+            </tr>
+            <?php for($i = 0; $i < count($res); $i++){ ?>
+            <tr>
+                <td> <?php echo $res[$i]['id']; ?> </td>
+                <td type="title"> <?php echo $res[$i]['title']; ?> </td>
+                <td type="des"> <?php echo $res[$i]['des']; ?> </td>
+                <td type="author"> <?php echo $res[$i]['author']; ?> </td>
+                <td class="btns"> <?php echo $res[$i]['cid']; ?> </td>
+                <td>
+                    <a href="updatecategory.php?id=<?php echo $res[$i]['id']; ?>" class="btn btn-success btn-sm">修改</a>
+                    <a href="delcategory.php?id=<?php echo $res[$i]['id']; ?>" class="btn btn-danger btn-sm">删除</a>
+                </td>
+            </tr>
+            <?php } ?>
+        </table>
+    </section>
+</main>
+</body>
+</html>
