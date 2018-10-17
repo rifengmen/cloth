@@ -31,7 +31,7 @@ class Menu {
         // 循环  $row遍历出的每一条都是一栏   fetch——assoc（）转化为关联数组，处理结果集，每次只转化一个
         while ($row = $res -> fetch_assoc()) {
             // 每调用一次增加一个层级
-            $str = str_repeat('-',$flag);
+            $str = str_repeat('*',$flag);
             if ($row['id'] == $pid) {
                 // 定义字符串值
                 $this -> str .= "<option selected value={$row['id']}> {$str} {$row['title']} </option>";
