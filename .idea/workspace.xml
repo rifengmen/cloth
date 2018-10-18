@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb623123-fb95-4b52-9764-9321ebb2ff40" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/insertgoods.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/insertgoods.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/querygoods.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/querygoods.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/fun.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fun.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/admin/insertgoods.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/insertgoods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/admin/querygoods.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/querygoods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadimg/2018-10-16/1539687716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadimg/2018-10-16/1539698867.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/slide.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/slide.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +18,7 @@
     <session id="1912390801">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -32,40 +28,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="14" />
-          <entry key="html" value="42" />
+          <entry key="css" value="15" />
+          <entry key="html" value="44" />
           <entry key="jpg" value="1" />
           <entry key="js" value="12" />
           <entry key="json" value="1" />
-          <entry key="php" value="68" />
+          <entry key="php" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
-          <entry key="HTML" value="42" />
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="44" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="12" />
-          <entry key="PHP" value="68" />
+          <entry key="PHP" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="772" />
-          <entry key="html" value="2867" />
+          <entry key="css" value="938" />
+          <entry key="html" value="3152" />
           <entry key="js" value="1128" />
           <entry key="json" value="1" />
-          <entry key="php" value="10230" />
+          <entry key="php" value="11520" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="772" />
-          <entry key="HTML" value="2867" />
+          <entry key="CSS" value="938" />
+          <entry key="HTML" value="3152" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1128" />
-          <entry key="PHP" value="10230" />
+          <entry key="PHP" value="11520" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -82,8 +78,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/admin/querygoods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="622">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="e#1515#1522#1" expanded="true" />
+                <element signature="e#1881#1888#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -92,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/admin/querygoods.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -142,21 +151,22 @@
         <option value="$PROJECT_DIR$/admin/delcategory.php" />
         <option value="$PROJECT_DIR$/admin/updatecategory.php" />
         <option value="$PROJECT_DIR$/static/js/category.js" />
-        <option value="$PROJECT_DIR$/template/admin/header.html" />
         <option value="$PROJECT_DIR$/ueditor/php/config.json" />
         <option value="$PROJECT_DIR$/template/admin/querygoods.php" />
         <option value="$PROJECT_DIR$/admin/querygoods.html" />
-        <option value="$PROJECT_DIR$/template/admin/slide.html" />
-        <option value="$PROJECT_DIR$/static/css/index.css" />
         <option value="$PROJECT_DIR$/lib/fun.php" />
         <option value="$PROJECT_DIR$/admin/insertgoods.php" />
-        <option value="$PROJECT_DIR$/admin/querygoods.php" />
         <option value="$PROJECT_DIR$/admin/updategoods.php" />
         <option value="$PROJECT_DIR$/admin/delgoods.php" />
         <option value="$PROJECT_DIR$/lib/function.php" />
-        <option value="$PROJECT_DIR$/template/admin/querygoods.html" />
         <option value="$PROJECT_DIR$/lib/upload.php" />
         <option value="$PROJECT_DIR$/template/admin/insertgoods.html" />
+        <option value="$PROJECT_DIR$/template/admin/slide.html" />
+        <option value="$PROJECT_DIR$/static/css/index.css" />
+        <option value="$PROJECT_DIR$/template/admin/header.html" />
+        <option value="$PROJECT_DIR$/lib/page.php" />
+        <option value="$PROJECT_DIR$/admin/querygoods.php" />
+        <option value="$PROJECT_DIR$/template/admin/querygoods.html" />
       </list>
     </option>
   </component>
@@ -169,7 +179,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -202,6 +212,12 @@
               <item name="cloth" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloth" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloth" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloth" type="b2602c69:ProjectViewProjectNode" />
@@ -295,15 +311,15 @@
       <workItem from="1539315810136" duration="21528000" />
       <workItem from="1539389985573" duration="4266000" />
       <workItem from="1539518099066" duration="8911000" />
-      <workItem from="1539527436255" duration="95929000" />
+      <workItem from="1539527436255" duration="105670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144502000" />
+    <option name="totallyTimeSpent" value="154243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16201717" />
@@ -465,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/category.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -497,20 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin/slide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -576,17 +571,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/slide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/querygoods.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/admin/querygoods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="622">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#1515#1522#1" expanded="true" />
+            <element signature="e#1881#1888#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

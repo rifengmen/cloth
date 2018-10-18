@@ -19,6 +19,8 @@ section.mainRight {
     border-left: 1px solid rgba(0,0,0,0.2);
     padding: 50px 100px;
     overflow-y: auto;
+    background-image: url("../img/login.jpg");
+    background-size: cover;
 }
 h3 {
     width: 100%;
@@ -42,7 +44,7 @@ h4>i.iconfont {
     width: 40px;
     height: 40px;
     font-size: 18px;
-    color: forestgreen;
+    color: #3ee3fb;
     text-align: center;
     transition: all .5s;
 }
@@ -51,9 +53,7 @@ h4>i.iconfont {
 }
 .icon-xiala.hot {
     transform: rotateZ(-90deg);
-}
-.list-group>li {
-    margin-top: 10px;
+    color: #3ee300;
 }
 .navbar-header {
     display: flex;
@@ -62,4 +62,13 @@ h4>i.iconfont {
     width: 40px;
     height: 40px;
     margin: 5px 20px;
+}
+.list-group-item {
+    border-left: 6px solid #3ee3fb;
+}
+.list-group-item:hover {
+    border-left: 6px solid #3ee300;
+}
+.add {
+    border-bottom: 2px solid rgba(0,0,0,0.3);
 }
