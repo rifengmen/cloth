@@ -1,0 +1,45 @@
+<?php include_once 'header.php'; ?>
+<link rel="stylesheet" type="text/css" href="../static/css/duorou.css">
+<script src="../static/js/info.js"></script>
+	<!-- 站位块儿 -->
+	<div class="zhanwei"></div>
+	<!-- main底背景 -->
+	<div class="main">
+		<!-- main正文部分 -->
+		<div class="main-bottom">
+			<!-- main左边文本部分 -->
+			<div class="main-left">
+			    <div class="top">
+			    	<h2> <?php echo $text['title']; ?> </h2>
+			    	<p>
+			    		<span> <?php echo $text['times']?> </span>
+			    		<span> <?php echo $text['author']?> </span>
+			    		<span><i class="iconfont icon-yanjing"></i></span>
+			    		<span class="count"> <?php echo $text['count']?> </span>
+			    	</p>
+			    </div>
+			    <div class="text">
+					<?php echo $text['content']?>
+				</div>
+			    <div class="page-round">
+			    	<a href="pre.php?id=<?php echo !$text['id'] ? $id : $text['id']; ?>" class="<?php echo !$text['id'] ? 'null' : 'previous'; ?>">上一篇：<?php echo !$text['id'] ? '没有了' : $text['title']; ?> </a>
+			    	<a href="next.php?id=<?php echo !$text['id'] ? $id : $text['id']; ?>" class="<?php echo !$text['id'] ? 'null' : 'previous'; ?>">下一篇：<?php echo !$text['id'] ? '没有了' : $text['title']; ?> </a>
+			    </div>
+			</div>
+			<!-- main右边小块儿 -->
+			<div class="main-right">
+				<div class="search">
+					<input type="text" name="" placeholder="Search">
+					<a href="#"><i class="iconfont icon-sousuo"></i></a>
+				</div>
+				<div class="recommend">
+					<h3>为您推荐</h3>
+					<a href="#">适合家庭的摆台花</a>
+					<a href="#">夏日里的一抹清凉</a>
+					<a href="#">亲临进口花材</a>
+				</div>
+				<a href="#">所有文章</a>
+			</div>
+		</div>
+	</div>
+<?php include_once 'footer.php'; ?>

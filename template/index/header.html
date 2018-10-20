@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>素馨花卉</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/swiper-4.4.1.min.css">
+    <link rel="stylesheet" href="../static/css/animate.css">
+    <link rel="stylesheet" href="../static/iconfont/iconfont1.css">
+    <link rel="stylesheet" href="../static/css/header.css">
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/swiper-4.4.1.min.js"></script>
+    <script src="../static/js/animate.js"></script>
+    <!--<script src="../static/js/header.js"></script>-->
+</head>
+<body>
+<!-- 导航栏 -->
+<div class="nav">
+    <div class="nav-inner">
+        <div class="nav-inner-logo">
+            <a href="#" class="sq_start">我爱DIY</a>
+        </div>
+        <div class="nav-inner-a">
+            <ul>
+                <li class="<?php if(!isset($_GET['id'])) { echo 'hot'; }?>">
+                    <a href="index.php" title="网站首页">网站首页</a>
+                </li>
+                <?php for($i = 0; $i < count($res); $i++) { ?>
+                <li class="<?php if(isset($_GET['id'])) { echo $id==$res[$i]['id']?'hot':'';}?>">
+                    <a href="list.php?id=<?php echo $res[$i]['id']?>" title="<?php echo $res[$i]['title']?>">
+                        <?php echo $res[$i]['title']?>
+
+                        <!--<ul><?php echo $res[$i]['title']?>-->
+                        <!--<li>-->
+                        <!--<a href="#">123</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+
+                    </a>
+                </li>
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+</div>

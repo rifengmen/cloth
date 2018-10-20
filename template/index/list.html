@@ -1,0 +1,67 @@
+<?php include_once 'header.php'; ?>
+<link rel="stylesheet" type="text/css" href="../static/css/list.css">
+<!-- 站位块儿 -->
+<div class="zhanwei"></div>
+<!-- main花言花语 -->
+<div class="main">
+    <!-- main标题 -->
+    <div class="main-top"> <?php echo $cate['des']; ?> </div>
+    <!-- main下半部正文部分 -->
+    <div class="main-bottom">
+        <!-- main左边列表部分 -->
+        <div class="main-left">
+            <ul>
+                <?php for($i = 0; $i < count($resb); $i++) {; ?>
+                <li>
+                    <a href="info.php?id=<?php echo $resb[$i]['id']?>">
+                        <img src="<?php echo $resb[$i]['thumb'] ?>" alt="<?php echo $resb[$i]['title'] ?>">
+                    </a>
+                    <div class="text">
+                        <a href="info.php?id=<?php echo $resb[$i]['id']; ?>"> <?php echo $resb[$i]['title'] ?> </a>
+                        <p><?php echo $resb[$i]['des'] ?></p>
+                        <p>
+                            <span> <?php echo substr($resb[$i]['times'],0,10) ?> </span>
+                            <span> <?php echo $resb[$i]['author'] ?> </span>
+                            <span><i class="iconfont icon-yanjing"></i></span>
+                            <span> <?php echo $resb[$i]['count'] ?> </span>
+                        </p>
+                    </div>
+                </li>
+                <?php }; ?>
+                <!--左边列表底部页码部分-->
+                <nav aria-label="Page navigation" class="<?php echo $size == 1 ? 'hidden' : 'visible'; ?>">
+                    <ul class="pagination pagination-lg">
+                        <li>
+                            <a href="list.php?pagenum=<?php echo $pagenum == 1? 1: $pagenum - 1; ?>&id=<?php echo $id; ?>" aria-label="Previous">
+                                <span aria-hidden="true">上一页</span>
+                            </a>
+                        </li>
+                        <?php for($i = 1; $i <= $size;$i++) { ?>
+                        <li class="<?php echo $pagenum == $i ? 'active': ''; ?>"><a href="list.php?pagenum=<?php echo $i ?>&id=<?php echo $id; ?>"> <?php echo $i ?> </a></li>
+                        <?php }; ?>
+                        <li>
+                            <a href="list.php?pagenum=<?php echo $pagenum == $size? $size: $pagenum + 1; ?>&id=<?php echo $id; ?>" aria-label="Next">
+                                <span aria-hidden="true">下一页</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </ul>
+        </div>
+        <!-- main右边小块儿 -->
+        <div class="main-right">
+            <div class="search">
+                <input type="text" name="" placeholder="Search">
+                <a href="#"><i class="iconfont icon-sousuo"></i></a>
+            </div>
+            <div class="recommend">
+                <h3>为您推荐</h3>
+                <a href="#">适合家庭的摆台花</a>
+                <a href="#">夏日里的一抹清凉</a>
+                <a href="#">亲临进口花材</a>
+            </div>
+            <a href="#">所有文章</a>
+        </div>
+    </div>
+</div>
+<?php include_once 'footer.php'; ?>

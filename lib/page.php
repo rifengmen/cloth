@@ -1,16 +1,4 @@
 <?php
-
-// 页数
-//
-// 数据
-//
-//
-//
-//
-//
-// 数据总数  total size
-
-
 class Page{
     public $pages;
     public $mysql;

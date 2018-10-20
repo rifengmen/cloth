@@ -1,0 +1,193 @@
+/*站位块儿*/
+.zhanwei {
+	width: 100%;
+	height: 79px;
+	background-color: #f5f5f5;
+}
+
+/*main留言建议*/
+.main {
+	width: 100%;
+	background-color: #f5f5f5;
+}
+/*main标题*/
+.main-top {
+	width: 100%;
+	height: 100px;
+	font-size: 35px;
+	font-weight: 400;
+	color: #F67A82;
+	padding: 30px 30px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+/*main下半部正文部分*/
+div.main-bottom {
+	width: 1170px;
+	margin: 0 auto;
+	/*background-color: red;*/
+    display: flex;
+    border-bottom: 40px solid #f5f5f5;
+    display: flex;
+}
+/*main左边列表部分*/
+div.main-bottom>div.list {
+    width: 780px;
+    padding: 30px;
+    background-color: #ffffff;
+}
+.main-left>li {
+	width: 100%;
+	height: 70px;
+	margin: 10px auto;
+	border-bottom: 1px #f5f5f5 solid;
+    display: flex;
+}
+.main-left>li>.icon {
+	width: 36px;
+	height: 36px;
+	color: #2a333c;
+	font-size: 36px;
+}
+.main-left>li>.icon>i {
+	color: #2a333c;
+	font-size: 36px;
+}
+
+.main-left>li>.inf {
+	width: 500px;
+	height: 46px;
+	margin-left: 20px;
+}
+.main-left>li>.inf>h4 {
+	color: #37474f;
+	font-size: 14px;
+	font-weight: 400;
+}
+.main-left>li>.inf>p {
+	color: #76838f;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: -10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main-left>li>.times {
+    width: 138px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.main-left>li>.times>span {
+    font-size: 12px;
+    color: #bbb;
+    text-align: end;
+}
+/*左边列表底部页码部分*/
+a.page {
+	display: inline-block;
+	width: 720px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	margin: 30px auto;
+	background-color: #e4eaec;
+	color: #76838f;
+}
+a.page:hover {
+	background-color: #f5f5f5;
+	transition: all .7s;
+}
+/*main右边小块儿*/
+.main-right {
+	width: 360px;
+	height: 428px;
+	background-color: #ffffff;
+	margin-left: 30px;
+	padding: 20px;
+}
+.main-right>.rem {
+    height: 0;
+    color: red;
+    overflow: hidden;
+}
+.main-right>input {
+	font-size: 14px;
+	width: 310px;
+	height: 36px;
+	color: #76838f;
+	border: 1px #e4eaec solid;
+	border-radius: 3px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.main-right>textarea {
+	font-size: 14px;
+	color: #76838f;
+	border: 1px #e4eaec solid;
+	border-radius: 3px;
+	margin-top: 20px;
+	padding: 10px;
+    resize: none;
+}
+.main-right>textarea::-webkit-input-placeholder {
+    color: #a3afb7;
+}
+.main-right>.text {
+    width: 100%;
+    font-size: 14px;
+    color: #a3afb7;
+    text-align: center;
+}
+.main-right>.text>span {
+    color: red;
+}
+.main-right>div>input {
+
+}
+.main-right input::-webkit-input-placeholder {
+    color: #a3afb7;
+}
+.main-right>.verify {
+    display: flex;
+}
+.main-right>.verify>input {
+    font-size: 14px;
+    width: 200px;
+    height: 36px;
+    color: #76838f;
+    border: 1px #e4eaec solid;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.main-right>.verify>span {
+	display: inline-block;
+	width: 106px;
+	height: 36px;
+	border: 1px #e4eaec solid;
+    border-left: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+	margin-top: 20px;
+	background:  #f5f5f5 url(../img/yzm.png) no-repeat center;
+}
+.main-right>button {
+	font-size: 14px;
+	width: 320px;
+	height: 36px;
+	border: 1px #358fe4 solid;
+	border-radius: 3px;
+	margin-top: 20px;
+	padding-left: 10px;
+	background-color: #358fe4;
+	color: #ffffff;
+    transition: all 1s;
+}
+.main-right>button:hover {
+	background-color: #89bceb;
+	border: 1px #89bceb solid;
+    cursor: pointer;
+}

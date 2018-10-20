@@ -9,13 +9,11 @@ $pagenum = isset($_GET['pagenum']) ? $_GET['pagenum'] : 1;
 $pages = new Page($mysql,$num);
 // 用对象身上的函数获取总共有多少页
 $size = $pages -> allPage();
-// 用对象身上的方法获取每页显示的内容
+// 用对象身上的函数获取每页显示的内容
 $res = $pages -> getdata($pagenum);
 
-
-
-//$sql = "select goods.*,category.title as cname from goods,category where goods.cid=category.id";
-//$res = $mysql -> query($sql) -> fetch_all(MYSQLI_ASSOC);
-
+// 不含分页器的方法
+// $sql = "select goods.*,category.title as cname from goods,category where goods.cid=category.id";
+// $res = $mysql -> query($sql) -> fetch_all(MYSQLI_ASSOC);
 
 include_once "../template/admin/querygoods.html";

@@ -90,7 +90,7 @@ class Upload {
             // 移动文件到指定目录
             move_uploaded_file($file['tmp_name'],$path);
             // 返回文件路径
-            return ['code' => 10,'msg' => "/cloth/uploadimg/".$date."/".$filename];
+            return ['code' => 10,'msg' => "../uploadimg/".$date."/".$filename];
         }
     }
     function isSize($size){
