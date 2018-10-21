@@ -1,6 +1,10 @@
 <?php
 include_once "../lib/publics.php";
 $id = $_GET['id'];
+$sqlp = "select * from goods where id<$id order by id desc limit 1 ";
 $sql = "select * from goods where id=$id";
-$text = $mysql -> query($sql) -> fetch_assoc();
+$sqln = "select * from goods where id>$id order by id asc limit 1 ";
+$textp = $mysql -> query($sqlp) -> fetch_assoc();
+$text = $mysql ->query($sql) -> fetch_assoc();
+$textn = $mysql -> query($sqln) -> fetch_assoc();
 include_once "../template/index/info.html";

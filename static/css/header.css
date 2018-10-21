@@ -4,9 +4,8 @@
     margin: 0;
     border: 0;
     list-style: none; /*列表去标题*/
-    text-decoration: none;/*a链接去下划线*/
-    background-repeat: no-repeat;
-    background-position: center;
+    text-decoration: none;
+    background: no-repeat center;
     font-size: 14px;
     font-family: "microsoft yahei","苹方","sans-serif";
 }

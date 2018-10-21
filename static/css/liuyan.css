@@ -76,13 +76,9 @@ div.main-bottom>div.list {
 .main-left>li>.times {
     width: 138px;
     height: auto;
-    display: flex;
-    justify-content: space-around;
-}
-.main-left>li>.times>span {
-    font-size: 12px;
-    color: #bbb;
-    text-align: end;
+	font-size: 12px;
+	color: #bbb;
+	text-align: end;
 }
 /*左边列表底部页码部分*/
 a.page {
@@ -94,6 +90,7 @@ a.page {
 	margin: 30px auto;
 	background-color: #e4eaec;
 	color: #76838f;
+	text-decoration: none;
 }
 a.page:hover {
 	background-color: #f5f5f5;

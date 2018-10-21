@@ -50,6 +50,7 @@ div.main-bottom {
 	float: left;
 	background-size: 200%;
     overflow: hidden;
+	text-decoration: none;
 }
 .main-left>ul>li>a>img {
     width: 100%;
@@ -68,6 +69,7 @@ div.main-bottom {
 	margin-bottom: 30px;
 	color: #2a333c;
 	font-size: 22px;
+	text-decoration: none;
 }
 .main-left>ul>li>div>a:hover {
 	text-decoration: underline;
@@ -145,6 +147,7 @@ nav {
 	float: right;
 	margin-top: -13%;
 	margin-right: 10px;
+	text-decoration: none;
 }
 .recommend {
 	width: 212px;
@@ -175,7 +178,6 @@ nav {
 }
 .recommend>a:hover {
 	color: #62a8ea;
-	text-decoration: underline;
 }
 
 .main-right>a {
@@ -188,6 +190,5 @@ nav {
 }
 .main-right>a:hover {
 	color: #62a8ea;
-	text-decoration: underline;
 }
 
