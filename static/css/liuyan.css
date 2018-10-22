@@ -91,10 +91,27 @@ a.page {
 	background-color: #e4eaec;
 	color: #76838f;
 	text-decoration: none;
+	display: flex;
+	justify-content: center;
 }
 a.page:hover {
 	background-color: #f5f5f5;
 	transition: all .7s;
+}
+a.page>i {
+	display: block;
+	margin-right: 10px;
+}
+a.page>i.icon-jiazai {
+	animation: rotate 1s ease infinite;
+}
+@keyframes rotate {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
 }
 /*main右边小块儿*/
 .main-right {

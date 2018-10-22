@@ -20,7 +20,7 @@ window.onload = function () {
             hots.style.color ="#16b0dc";
         }
     }
-    // 鼠标移入效果以及点击效果
+    // nav鼠标移入变色效果
     let list = $(".nav-inner-a>ul");
     list.on("mouseover",".first",function () {
         $(this).addClass("hot");

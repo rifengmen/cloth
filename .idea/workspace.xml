@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb623123-fb95-4b52-9764-9321ebb2ff40" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/index/info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/index/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/guanyu.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/guanyu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/liuyan.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/liuyan.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/liuyan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index/comment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index/info.html" afterDir="false" />
-    </list>
+    <list default="true" id="bb623123-fb95-4b52-9764-9321ebb2ff40" name="默认更改列表" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +12,7 @@
     <session id="1912390801">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -37,41 +24,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="47" />
-          <entry key="html" value="88" />
+          <entry key="css" value="52" />
+          <entry key="html" value="97" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="41" />
+          <entry key="js" value="49" />
           <entry key="json" value="1" />
-          <entry key="php" value="132" />
+          <entry key="php" value="144" />
           <entry key="png" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="47" />
-          <entry key="HTML" value="88" />
+          <entry key="CSS" value="52" />
+          <entry key="HTML" value="97" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="41" />
-          <entry key="PHP" value="132" />
+          <entry key="JavaScript" value="49" />
+          <entry key="PHP" value="144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1473" />
-          <entry key="html" value="4899" />
-          <entry key="js" value="1532" />
+          <entry key="css" value="1672" />
+          <entry key="html" value="5489" />
+          <entry key="js" value="3118" />
           <entry key="json" value="1" />
-          <entry key="php" value="15131" />
+          <entry key="php" value="15695" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1473" />
-          <entry key="HTML" value="4899" />
+          <entry key="CSS" value="1672" />
+          <entry key="HTML" value="5489" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1532" />
-          <entry key="PHP" value="15130" />
+          <entry key="JavaScript" value="3118" />
+          <entry key="PHP" value="15694" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -89,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/index/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="324">
+              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -98,8 +85,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="600">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/info.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -107,35 +103,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/index/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="45">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/index/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index/info.php">
+        <entry file="file://$PROJECT_DIR$/static/js/info.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/next.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/pre.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="260">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -146,8 +142,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -169,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/updategoods.php" />
-        <option value="$PROJECT_DIR$/admin/delgoods.php" />
         <option value="$PROJECT_DIR$/lib/function.php" />
         <option value="$PROJECT_DIR$/template/admin/insertgoods.html" />
         <option value="$PROJECT_DIR$/template/admin/slide.html" />
@@ -183,7 +177,6 @@
         <option value="$PROJECT_DIR$/index/footer.php" />
         <option value="$PROJECT_DIR$/static/css/index1.css" />
         <option value="$PROJECT_DIR$/static/css/huayanhuayu.css" />
-        <option value="$PROJECT_DIR$/template/index/footer.html" />
         <option value="$PROJECT_DIR$/static/js/banner_ani.js" />
         <option value="$PROJECT_DIR$/template/index/index.html" />
         <option value="$PROJECT_DIR$/static/js/index.js" />
@@ -191,14 +184,11 @@
         <option value="$PROJECT_DIR$/template/admin/header.html" />
         <option value="$PROJECT_DIR$/template/admin/category.html" />
         <option value="$PROJECT_DIR$/admin/querycategory.php" />
-        <option value="$PROJECT_DIR$/static/js/header.js" />
         <option value="$PROJECT_DIR$/index/index.php" />
         <option value="$PROJECT_DIR$/index/pub.php" />
         <option value="$PROJECT_DIR$/template/index/pre.html" />
         <option value="$PROJECT_DIR$/template/index/next.html" />
         <option value="$PROJECT_DIR$/static/js/list.js" />
-        <option value="$PROJECT_DIR$/template/index/list.html" />
-        <option value="$PROJECT_DIR$/static/js/info.js" />
         <option value="$PROJECT_DIR$/index/count.php" />
         <option value="$PROJECT_DIR$/index/next.php" />
         <option value="$PROJECT_DIR$/static/css/duorou.css" />
@@ -206,20 +196,26 @@
         <option value="$PROJECT_DIR$/template/index/demo.html" />
         <option value="$PROJECT_DIR$/template/index/demo.php" />
         <option value="$PROJECT_DIR$/index/demo.php" />
-        <option value="$PROJECT_DIR$/template/index/header.html" />
-        <option value="$PROJECT_DIR$/template/index/aboutus.html" />
         <option value="$PROJECT_DIR$/static/css/guanyu.css" />
         <option value="$PROJECT_DIR$/static/js/liuyan.js" />
-        <option value="$PROJECT_DIR$/static/css/header.css" />
         <option value="$PROJECT_DIR$/static/css/list.css" />
-        <option value="$PROJECT_DIR$/static/css/liuyan.css" />
-        <option value="$PROJECT_DIR$/index/comment.php" />
-        <option value="$PROJECT_DIR$/template/index/comment.html" />
-        <option value="$PROJECT_DIR$/index/list.php" />
         <option value="$PROJECT_DIR$/lib/turn.php" />
         <option value="$PROJECT_DIR$/index/pre.php" />
-        <option value="$PROJECT_DIR$/template/index/info.html" />
+        <option value="$PROJECT_DIR$/static/js/header.js" />
+        <option value="$PROJECT_DIR$/static/css/header.css" />
+        <option value="$PROJECT_DIR$/template/index/header.html" />
+        <option value="$PROJECT_DIR$/index/list.php" />
+        <option value="$PROJECT_DIR$/index/comment.php" />
+        <option value="$PROJECT_DIR$/index/page.php" />
+        <option value="$PROJECT_DIR$/template/index/comment.html" />
+        <option value="$PROJECT_DIR$/static/css/liuyan.css" />
+        <option value="$PROJECT_DIR$/template/index/footer.html" />
+        <option value="$PROJECT_DIR$/static/js/comment.js" />
+        <option value="$PROJECT_DIR$/template/index/aboutus.html" />
+        <option value="$PROJECT_DIR$/template/index/list.html" />
         <option value="$PROJECT_DIR$/index/info.php" />
+        <option value="$PROJECT_DIR$/template/index/info.html" />
+        <option value="$PROJECT_DIR$/static/js/info.js" />
       </list>
     </option>
   </component>
@@ -232,11 +228,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="16" />
-    <option name="y" value="2" />
-    <option name="width" value="1315" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-331" />
+    <option name="width" value="1065" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -260,24 +255,7 @@
             <path>
               <item name="cloth" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloth" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloth" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloth" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloth" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="iconfont" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloth" type="b2602c69:ProjectViewProjectNode" />
@@ -305,26 +283,26 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-week1" />
+    <property name="last_opened_file_path" value="D:/HBuilderProject/Myslef" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\cloth\template\index" />
-      <recent name="D:\wamp64\www\cloth\static\css" />
-      <recent name="D:\wamp64\www\cloth\static\iconfont" />
-      <recent name="D:\wamp64\www\cloth\admin" />
-      <recent name="D:\wamp64\www\cloth\static\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\cloth\index" />
       <recent name="D:\wamp64\www\cloth\static\css" />
       <recent name="D:\wamp64\www\cloth\template\admin" />
       <recent name="D:\wamp64\www\cloth\admin" />
       <recent name="D:\wamp64\www\cloth\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\cloth\static\iconfont" />
+      <recent name="D:\wamp64\www\cloth\template\index" />
+      <recent name="D:\wamp64\www\cloth\static\css" />
+      <recent name="D:\wamp64\www\cloth\admin" />
+      <recent name="D:\wamp64\www\cloth\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,12 +346,12 @@
       <workItem from="1539841012857" duration="30529000" />
       <workItem from="1539908840458" duration="27287000" />
       <workItem from="1539959847611" duration="10711000" />
-      <workItem from="1540109676852" duration="13237000" />
+      <workItem from="1540109676852" duration="48576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236007000" />
+    <option name="totallyTimeSpent" value="271346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -432,35 +410,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/index/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/banner_ani.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/index/duorou.html" />
     <entry file="file://$PROJECT_DIR$/static/img/dr01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -530,25 +479,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/index/pre.html" />
     <entry file="file://$PROJECT_DIR$/template/index/next.html" />
-    <entry file="file://$PROJECT_DIR$/static/js/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/index/demo.html" />
     <entry file="file://$PROJECT_DIR$/static/css/duorou.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -559,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/index/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/guanyu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -573,24 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/index/aboutus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/liuyan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-540">
           <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -615,9 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/insertcategory.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -628,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/count.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/delgoods.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -642,52 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/liuyan.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/list.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="191" column="19" selection-start-line="191" selection-start-column="19" selection-end-line="191" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/index/comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/index/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -719,17 +581,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/insertcomment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/iconfont/iconfont1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/liuyan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/index/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="45">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="340">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>

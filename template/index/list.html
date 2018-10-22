@@ -13,11 +13,11 @@
             <ul>
                 <?php for($i = 0; $i < count($resb); $i++) {; ?>
                 <li>
-                    <a href="info.php?id=<?php echo $resb[$i]['id']?>">
+                    <a href="info.php?id=<?php echo $resb[$i]['id']?>&cid=<?php echo $resb[$i]['cid']; ?>">
                         <img src="<?php echo $resb[$i]['thumb'] ?>" alt="<?php echo $resb[$i]['title'] ?>">
                     </a>
                     <div class="text">
-                        <a href="info.php?id=<?php echo $resb[$i]['id']; ?>"> <?php echo $resb[$i]['title'] ?> </a>
+                        <a href="info.php?id=<?php echo $resb[$i]['id']; ?>&cid=<?php echo $resb[$i]['cid']; ?>"> <?php echo $resb[$i]['title'] ?> </a>
                         <p><?php echo $resb[$i]['des'] ?></p>
                         <p>
                             <span> <?php echo substr($resb[$i]['times'],0,10) ?> </span>

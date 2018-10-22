@@ -11,7 +11,7 @@
     <script src="../static/js/jquery-3.3.1.min.js"></script>
     <script src="../static/js/swiper-4.4.1.min.js"></script>
     <script src="../static/js/animate.js"></script>
-    <!--<script src="../static/js/header.js"></script>-->
+    <script src="../static/js/header.js"></script>
 </head>
 <body>
 <!-- 导航栏 -->
@@ -29,14 +29,12 @@
                 <li class="<?php if(isset($_GET['id'])) { echo $id==$res[$i]['id']?'hot':'';}?>">
                     <a href="list.php?id=<?php echo $res[$i]['id']?>" title="<?php echo $res[$i]['title']?>">
                         <?php echo $res[$i]['title']?>
-
-                        <!--<ul><?php echo $res[$i]['title']?>-->
-                        <!--<li>-->
-                        <!--<a href="#">123</a>-->
-                        <!--</li>-->
-                        <!--</ul>-->
-
                     </a>
+                    <ul>
+                        <li>
+                            <a href="#">这是测试块儿</a>
+                        </li>
+                    </ul>
                 </li>
                 <?php } ?>
             </ul>

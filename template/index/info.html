@@ -22,8 +22,12 @@
 					<?php echo $text['content']?>
 				</div>
 			    <div class="page-round">
-			    	<a href="info.php?id=<?php echo !$textp['id'] ? $id : $textp['id']; ?>" class="<?php echo !$textp['id'] ? 'null' : 'previous'; ?>">上一篇：<?php echo !$textp['id'] ? '没有了' : $textp['title']; ?> </a>
-			    	<a href="info.php?id=<?php echo !$textn['id'] ? $id : $textn['id']; ?>" class="<?php echo !$textn['id'] ? 'null' : 'previous'; ?>">下一篇：<?php echo !$textn['id'] ? '没有了' : $textn['title']; ?> </a>
+			    	<a href="info.php?id=<?php echo !$textp['id'] ? $id : $textp['id']; ?>&cid=<?php echo $cid; ?>" class="<?php echo !$textp['id'] ? 'null' : 'previous'; ?>">
+						上一篇：<?php echo !$textp['id'] ? '没有了' : $textp['title']; ?>
+					</a>
+			    	<a href="info.php?id=<?php echo !$textn['id'] ? $id : $textn['id']; ?>&cid=<?php echo $cid; ?>" class="<?php echo !$textn['id'] ? 'null' : 'previous'; ?>">
+						下一篇：<?php echo !$textn['id'] ? '没有了' : $textn['title']; ?>
+					</a>
 			    </div>
 			</div>
 			<!-- main右边小块儿 -->

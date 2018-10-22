@@ -1,5 +1,6 @@
 <?php include_once 'header.php'; ?>
 <link rel="stylesheet" type="text/css" href="../static/css/liuyan.css">
+<script src="../static/js/comment.js"></script>
 	<!-- 站位块儿 -->
 	<div class="zhanwei"></div>
 	<!-- main留言建议 -->
@@ -11,38 +12,26 @@
             <!-- main左边列表部分 -->
             <div class="list">
                 <ul class="main-left">
-                    <?php for($i = 0; $i < count($result); $i++) {; ?>
-                    <li>
-                        <div class="icon">
-                            <i class="iconfont icon-touxiang"></i>
-                        </div>
-                        <div class="inf">
-                            <h4> <?php echo $result[$i]['names']; ?> </h4>
-                            <p> <?php echo $result[$i]['text']; ?> </p>
-                        </div>
-                        <div class="times">
-                            <?php echo $result[$i]['times'] ?>
-                        </div>
-                    </li>
-                    <?php }; ?>
+
                 </ul>
                 <!-- 左边列表底部加载更多 -->
-                <a href="list.php?id=37&pagenum=<?php echo $pagenum+1 ?>" class="page">
+                <a href="" class="page">
                     <i class="iconfont icon-icon-test"></i>
                     加载更多
                 </a>
             </div>
 			<!-- main右边小块儿 -->
-			<form class="main-right" action="list.php?id=37" method="post" enctype="application/x-www-form-urlencoded">
-				<input type="text" name="names" placeholder="姓名" class="names" required>
-				<input type="text" name="phone" placeholder="联系电话">
-				<textarea cols="40" name="text" rows="4" placeholder="您的建议" required></textarea>
+            <form id="myform"></form>
+			<div class="main-right">
+				<input type="text" name="names" placeholder="姓名" class="names" required form="myform">
+				<input type="text" name="phone" placeholder="联系电话" required form="myform">
+				<textarea cols="40" name="text" rows="4" placeholder="您的建议" required form="myform"></textarea>
 				<div class="verify">
 					<input type="text" name="" placeholder="验证码">
 					<span></span>
 				</div>
 				<button type="submit">提交</button>
-			</form>
+			</div>
 		</div>
 	</div>
     <?php include_once 'footer.php'; ?>
