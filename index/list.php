@@ -17,5 +17,7 @@ if ($cate['module'] == 'list') {
 else if ($cate['module'] == 'comment') {
 }
 else if ($cate['module'] == 'aboutus') {
+    $sql = "select * from aboutus";
+    $aboutus = $mysql -> query($sql) -> fetch_assoc();
 }
 include_once "../template/index/{$cate['tem']}";

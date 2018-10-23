@@ -8,8 +8,12 @@
 	<!-- banner图 -->
 	<div class="banner">
 		<div class="banner-img">
-			<a href="#" class="banner1"></a>
-			<a href="#" class="banner2"></a>
+			<a href="#" class="banner1">
+				<img src="../static/img/banner1.jpg" alt="">
+			</a>
+			<a href="#" class="banner2">
+				<img src="../static/img/banner2.jpg" alt="">
+			</a>
 		</div>
 		<div class="banner-left btn">
 			<i class="iconfont icon-zuo"></i>
@@ -19,16 +23,16 @@
 		</div>
 		<div class="banner-dian">
 			<div></div>
-            <span class="animated slideInUp">亭亭玉立、香气悠远</span>
+            <span class="animated slideInUp">超值预售，抢占先机</span>
 			<div></div>
-            <span class="animated slideInUp">乐趣多多</span>
+            <span class="animated slideInUp">电竞台式电脑</span>
 		</div>
 	</div>
 	<!-- main部分 -->
 	<!-- main素馨花艺 -->
 	<div class="main">
 		<div class="main-top">
-			<h4>素馨花艺<a href="huayi.html"></a></h4>
+			<h4>核心配件<a href="huayi.html"></a></h4>
 			<p>花艺师与您一同分享素馨花卉给你的生活带去的花香世界。</p>
 		</div>
 		<div class="main-bottom">
@@ -101,7 +105,7 @@
 	<!-- main2素馨花语 -->
 	<div class="main2">
 		<div class="main-top">
-			<h4>素馨花语<a href="huayanhuayu.html"></a></h4>
+			<h4>主板显卡<a href="huayanhuayu.html"></a></h4>
 		</div>
 		<div class="main2-bottom">
 			<div class="left">
@@ -211,22 +215,21 @@
 
 		</div>
 	</div>
-	<!-- main3素馨花卉工作室 -->
-	<div class="main3">
-		<div class="main-top">
-			<h4>素馨花卉工作室</h4>
-		</div>
-		<div class="text">
-			<p>郑州素馨花卉有限公司由优秀的花艺、花卉设计师王亚楠于2017年成立。</p>
-			<p>经营范围：花卉、工艺品、饰品的销售；礼仪策划；花卉、苗木种植技术咨询。</p>
-			<p>前期以鲜花、花束的包装及零售为主，逐渐过渡到花艺培训、家庭园艺等花香生活的指导，以及与花卉相关的文学创作。</p>
-			<p>公司致力于将多彩花艺带入寻常人家，让对生活有着更高追求的人们享受温馨素雅的花香世界，力求将这种文化做到极致。</p>
-			<p>公司地址：郑州市 中牟县 育才巷 县直一初中家属院 1单元201室</p>
-			<p>联系电话：0371-62180519  15890062947</p>
-			<p>电子邮箱：office@suxinhuahui.com</p>
-			<div class="m3bx"></div>
-		</div>
-
+<!-- 素馨花卉工作室 -->
+<div class="main3">
+	<div class="main-top">
+		<h4>素馨花卉工作室</h4>
 	</div>
+	<div class="text">
+		<h5> <?php echo $header['des']?> </h5>
+		<p>经营范围： <?php echo $header['ranger']?> </p>
+		<p> <?php echo $header['ranger1']?> </p>
+		<p> <?php echo $header['address']?> </p>
+		<p> <?php echo $header['phone']?> </p>
+	</div>
+	<div class="m3bx">
+		<img src="../static/img/m3bx.png" alt="我爱DIY">
+	</div>
+</div>
 
     <?php include_once 'footer.php'; ?>

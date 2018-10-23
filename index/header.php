@@ -8,4 +8,6 @@ $res = $mysql -> query($sql) -> fetch_all(MYSQLI_ASSOC);
 //$res2 = $mysql -> query($sql2);
 //var_dump($res2);
 //exit();
+$sql = "select * from aboutus";
+$header = $mysql -> query($sql) -> fetch_assoc();
 include_once "../template/index/header.html";
