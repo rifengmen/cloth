@@ -1,4 +1,5 @@
 <?php
+include_once "../lib/checklogin.php";
 include_once "../lib/publics.php";
 include_once "../lib/function.php";
 include_once "../lib/upload.php";

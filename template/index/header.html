@@ -17,7 +17,7 @@
 </head>
 <body>
 <!-- 导航栏 -->
-<div class="nav">
+<div class="nav" id="nav">
     <div class="nav-inner">
         <div class="nav-inner-logo">
             <a href="#" class="sq_start">我爱DIY</a>
@@ -27,15 +27,19 @@
                 <li class="<?php if(!isset($_GET['id'])) { echo 'hot'; }?>">
                     <a href="index.php" title="网站首页">网站首页</a>
                 </li>
-                <?php for($i = 0; $i < count($res); $i++) { ?>
-                <li class="<?php if(isset($_GET['id'])) { echo $id==$res[$i]['id']?'hot':'';}?>">
-                    <a href="list.php?id=<?php echo $res[$i]['id']?>" title="<?php echo $res[$i]['title']?>">
-                        <?php echo $res[$i]['title']?>
+                <?php foreach($res as $v) { ?>
+                <li class="<?php if(isset($_GET['id'])) { echo $id==$v['id']?'hot':'';}?>">
+                    <a href="list.php?id=<?php echo $v['id']?>" title="<?php echo $v['title']?>">
+                        <?php echo $v['title']?>
                     </a>
                     <ul>
+                        <?php $ids=$v['id'] ?>
+                        <?php $list = mysqli_query($mysql,"select * from category where pid=$ids"); ?>
+                        <?php foreach($list as $val) {; ?>
                         <li>
-                            <a href="#">这是测试块儿</a>
+                            <a href="#"> <?php echo $val['title'] ?> </a>
                         </li>
+                        <?php }; ?>
                     </ul>
                 </li>
                 <?php } ?>

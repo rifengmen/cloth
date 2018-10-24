@@ -51,45 +51,56 @@
 	line-height: 780px;
 }
 .banner-dian {
-	width: 80px;
+	width: 100px;
 	height: 20px;
 	position: absolute;
 	top: 850px;
 	left: 50%;
 	transform: translateX(-50%);
+	display: flex;
+	justify-content: space-around;
 }
-.banner-dian span {
-    width: 400px;
-    /*width: 0;*/
-    /*height: 0;*/
-    display: none;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 300;
-    color: #faf2d2;
-    position: absolute;
-    top: -70px;
-    left: -180px;
-    overflow: hidden;
-    transition: all 1s;
-}
-.banner-dian div {
+.banner-dian>div {
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
 	float: left;
 	background-color: #ccc;
-	margin-right: 20px;
     cursor: pointer;
 }
-.banner-dian div:nth-child(2) {
-	margin-right: 0;
+.banner-text {
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	top: 850px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: space-around;
+}
+.banner-text>span {
+	width: 400px;
+	/*width: 0;*/
+	/*height: 0;*/
+	display: none;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 300;
+	color: #faf2d2;
+	position: absolute;
+	top: -70px;
+	left: -180px;
+	overflow: hidden;
+	transition: all 1s;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 /*main部分*/
 /*main素馨花艺*/
 .main {
 	width: 1170px;
-	height: 604px;
+	padding-bottom: 40px;
 	margin: 40px auto;
 	/*background-color: red;*/
 }
@@ -143,29 +154,9 @@
 	height: 418px;
 	/*background-color: blue;*/
 }
-.main-bottom>.main-banner-w>.main-banner>div>div {
+.main-bottom>.main-banner-w>.main-banner>div>img {
 	width: 320px;
 	height: 320px;
-	border-radius: 50%;
-    background-size: cover;
-}
-.main-bottom>.main-banner-w>.main-banner>div>.mb1 {
-	background-image: url(../img/mb1.png);
-}
-.main-bottom>.main-banner-w>.main-banner>div>.mb2 {
-	background-image: url(../img/mb2.png);
-}
-.main-bottom>.main-banner-w>.main-banner>div>.mb3 {
-	background-image: url(../img/mb3.png);
-}
-.main-bottom>.main-banner-w>.main-banner>div>.mb4 {
-    background-image: url(../img/mb4.jpg);
-}
-.main-bottom>.main-banner-w>.main-banner>div>.mb5 {
-    background-image: url(../img/banner2.jpg);
-}
-.main-bottom>.main-banner-w>.main-banner>div>.mb6 {
-    background-image: url(../img/dr06.png);
 }
 .main-bottom>.main-banner-w>.main-banner>div>h5 {
 	display: block;
@@ -177,6 +168,9 @@
 .main-bottom>.main-banner-w>.main-banner>div>p {
 	font-size: 14px;
 	color: #757575;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .main-bottom>.main-banner-w>.main-banner>div>a {
 	display: block;
@@ -229,55 +223,31 @@
 /*main2素馨花语*/
 .main2 {
 	width: 100%;
-	height: 707px;
+	padding-bottom: 30px;
 	background-color: #f5f5f5;
 }
 
 /*main2素馨花语内容*/
 .main2-bottom {
 	width: 1170px;
-	height: 504px;
 	margin: 50px auto;
 	display: flex;
 	justify-content: space-between;
 	flex-flow: wrap;
 }
 .main2-bottom>div {
-	width: 580px;
-	height: 96px; 
-	margin: 14px auto;
+	height: 116px;
+	margin: 14px 0;
+	display: flex;
 }
 .main2-bottom>div>a {
-	display: block;
-	float: left;
-	width: 160px;
-	height: 96px;
+	width: 116px;
+	height: 116px;
 }
-.m2b1 {
-	background-image: url(../img/m2b1.png);
+.main2-bottom>div>a>img {
+	width: 100%;
+	height: 100%;
 }
-.m2b2 {
-	background-image: url(../img/m2b2.png);
-}
-.m2b3 {
-	background-image: url(../img/m2b3.png);
-}
-.m2b4 {
-	background-image: url(../img/m2b4.png);
-}
-.m2b5 {
-	background-image: url(../img/m2b5.png);
-}
-.m2b6 {
-	background-image: url(../img/m2b6.png);
-}
-.m2b7 {
-	background-image: url(../img/m2b7.png);
-}
-.m2b8 {
-	background-image: url(../img/m2b8.png);
-}
-
 .main2-bottom>div>div {
 	display: block;
 	width: 405px;

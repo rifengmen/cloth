@@ -1,4 +1,5 @@
 <?php
+include_once "../lib/checklogin.php";
 include_once '../lib/publics.php';
 
 $num = 15;

@@ -8,14 +8,14 @@ window.onload = function () {
     // 参数六：获取banner盒子宽度
     // 参数七：轮播时间
     // 参数八：图片配字
-    let dots = document.querySelectorAll(".banner-dian div");
+    let dots = document.querySelectorAll(".banner-dian>div");
     let imgs = document.querySelectorAll(".banner-img a");
     let banner = document.querySelector(".banner");
     let lbtn = document.querySelector(".banner-left");
     let rbtn = document.querySelector(".banner-right");
     let widths = parseInt(getComputedStyle(banner,null).width);
     let val = 3500;
-    let dotst = document.querySelectorAll(".banner-dian>span");
+    let dotst = document.querySelectorAll(".banner-text>span");
     banner_ani(dots,imgs,banner,lbtn,rbtn,widths,val,dotst);
 
     // Initialize Swiper
@@ -36,7 +36,7 @@ window.onload = function () {
         // 自动轮播
         autoplay: {
             // 时间
-            delay: 1000,
+            delay: 5000,
             // 默认为true，点击后停止自动轮播，如不停止须改为false
             disableOnInteraction: false,
         },
@@ -50,7 +50,7 @@ window.onload = function () {
         //     el: '.swiper-scrollbar',
         // },
     })
-
+    let navs = $("div.nav");
     let lefts = document.querySelectorAll(".main2-bottom>div.left");
     let rights = document.querySelectorAll(".main2-bottom>div.right");
     let h4s = document.querySelectorAll("h4");
@@ -69,6 +69,12 @@ window.onload = function () {
     });
     window.onscroll = function () {
         let tops = document.body.scrollTop || document.documentElement.scrollTop;
+        if (tops >= 120) {
+            navs.addClass("hot");
+        }
+        else if (tops < 120) {
+            navs.removeClass("hot");
+        }
         arrlefts.forEach((val,index) => {
             if (val-950 < tops) {
                 lefts[index].setAttribute('class','animated slideInLeft');

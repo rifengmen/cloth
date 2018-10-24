@@ -1,0 +1,51 @@
+<?php include_once 'header.php'; ?>
+<link rel="stylesheet" type="text/css" href="../static/css/search.css">
+<!-- 站位块儿 -->
+<div class="zhanwei"></div>
+<!-- main花言花语 -->
+<div class="main">
+    <!-- main下半部正文部分 -->
+    <div class="main-bottom">
+        <!-- main左边列表部分 -->
+        <div class="main-left">
+            <ul>
+                <?php for($i = 0; $i < count($searchp); $i++) {; ?>
+                <li>
+                    <a href="info.php?id=<?php echo $searchp[$i]['id']?>&cid=<?php echo $searchp[$i]['cid']; ?>">
+                        <img src="<?php echo $searchp[$i]['thumb'] ?>" alt="<?php echo $searchp[$i]['title'] ?>">
+                    </a>
+                    <div class="text">
+                        <a href="info.php?id=<?php echo $searchp[$i]['id']; ?>&cid=<?php echo $searchp[$i]['cid']; ?>"> <?php echo $searchp[$i]['title'] ?> </a>
+                        <p><?php echo $searchp[$i]['des'] ?></p>
+                        <p>
+                            <span> <?php echo substr($searchp[$i]['times'],0,10) ?> </span>
+                            <span> <?php echo $searchp[$i]['author'] ?> </span>
+                            <span><i class="iconfont icon-yanjing"></i></span>
+                            <span> <?php echo $searchp[$i]['count'] ?> </span>
+                        </p>
+                    </div>
+                </li>
+                <?php }; ?>
+                <!--左边列表底部页码部分-->
+                <nav aria-label="Page navigation" class="<?php echo $size == 1 ? 'hidden' : 'visible'; ?>">
+                    <ul class="pagination pagination-lg">
+                        <li>
+                            <a href="search.php?pagenum=<?php echo $pagenum == 1? 1: $pagenum - 1; ?>&search=<?php echo $search ?>" aria-label="Previous">
+                                <span aria-hidden="true">上一页</span>
+                            </a>
+                        </li>
+                        <?php for($i = 1; $i <= $size;$i++) { ?>
+                        <li class="<?php echo $pagenum == $i ? 'active': ''; ?>"><a href="search.php?pagenum=<?php echo $i ?>&search=<?php echo $search ?>"> <?php echo $i ?> </a></li>
+                        <?php }; ?>
+                        <li>
+                            <a href="search.php?pagenum=<?php echo $pagenum == $size? $size: $pagenum + 1; ?>&search=<?php echo $search ?>" aria-label="Next">
+                                <span aria-hidden="true">下一页</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </ul>
+        </div>
+    </div>
+</div>
+<?php include_once 'footer.php'; ?>

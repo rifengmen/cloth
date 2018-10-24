@@ -10,7 +10,7 @@
         include_once './slide.php';
     ?>
     <section class="mainRight">
-        <form class="form-horizontal" action="insertgoods.php" method="post" enctype="multipart/form-data">
+        <form class="form-horizontal" action="updategoods.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="inputtext3" class="col-sm-2 control-label">商品所属栏目</label>
                 <div class="col-sm-6">
@@ -26,19 +26,19 @@
             <div class="form-group">
                 <label for="inputtext1" class="col-sm-2 control-label">商品名称</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control header1" id="inputtext1" placeholder="商品名称" name="title" required>
+                    <input type="text" class="form-control header1" id="inputtext1" placeholder="商品名称" name="title" required value="<?php echo $res['title']; ?>">
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputtext2" class="col-sm-2 control-label">商品描述</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control header2" id="inputtext2" placeholder="商品描述" name="des" required>
+                    <input type="text" class="form-control header2" id="inputtext2" placeholder="商品描述" name="des" required value="<?php echo $res['des']; ?>">
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputtext4" class="col-sm-2 control-label">商品品牌</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control header2" id="inputtext4" placeholder="商品品牌" name="author" required>
+                    <input type="text" class="form-control header2" id="inputtext4" placeholder="商品品牌" name="author" required value="<?php echo $res['author']; ?>">
                 </div>
             </div>
             <div class="form-group">
@@ -55,13 +55,13 @@
             <div class="form-group">
                 <label class="col-sm-2 control-label">是否推荐</label>
                 <div class="col-sm-4">
-                    banner位置：<input type="radio" name="recommend" value="1">
-                    侧边栏位置：<input type="radio" name="recommend" value="2">
+                    一级推荐位置：<input type="radio" name="recommend" value="1">
+                    二级推荐位置：<input type="radio" name="recommend" value="2">
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-info insert">添加</button>
+                    <button type="submit" class="btn btn-info insert">修改</button>
                 </div>
             </div>
         </form>

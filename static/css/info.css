@@ -99,21 +99,12 @@ div.main-bottom {
 
 /*main右边小块儿*/
 .main-right {
-    height: 354px;
+    height: 350px;
     background-color: #ffffff;
-    margin-left: 30px;
     padding: 20px;
     position: sticky;
     top: 79px;
 }
-/*.search {
- 	width: 212px;
- 	height: 36px;
- 	line-height: 36px;
- 	font-size: 14px;
- 	text-align: center;
- 	border-radius: 18px;
- }*/
 .search>input {
     display: block;
     font-size: 13px;
@@ -124,19 +115,22 @@ div.main-bottom {
     padding-left: 10px;
     outline: none;
 }
-.search>a {
+.search>input:focus {
+    border: 1px #3ee3fb solid;
+}
+.search>button {
     color: #37474f;
     float: right;
     margin-top: -13%;
     margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
 }
 .recommend {
     width: 212px;
-    height: 222px;
     margin: 20px auto;
     padding: 20px auto;
     border-top: 1px #e4eaec solid;
-    border-bottom: 1px #e4eaec solid;
 }
 .recommend>h3 {
     display: block;
@@ -156,6 +150,9 @@ div.main-bottom {
     line-height: 46px;
     padding-left: 10px;
     border: 1px #e4eaec solid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .recommend>a:hover {
     color: #62a8ea;

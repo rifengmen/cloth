@@ -27,6 +27,9 @@ else {
     };
     for ($i = 0;$i < count($res);$i++) {
         if ($res[$i]['password'] == $password) {
+            session_start();
+            $_SESSION['islogin'] = "yes";
+            $_SESSION['username'] = $username;
             $color = "lawngreen";
             $panel = "success";
             $message = "登录成功";

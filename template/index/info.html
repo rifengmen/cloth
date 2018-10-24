@@ -1,5 +1,5 @@
 <?php include_once 'header.php'; ?>
-<link rel="stylesheet" type="text/css" href="../static/css/duorou.css">
+<link rel="stylesheet" type="text/css" href="../static/css/info.css">
 <script src="../static/js/info.js"></script>
 	<!-- 站位块儿 -->
 	<div class="zhanwei"></div>
@@ -32,17 +32,16 @@
 			</div>
 			<!-- main右边小块儿 -->
 			<div class="main-right">
-				<div class="search">
-					<input type="text" name="" placeholder="Search">
-					<a href="#"><i class="iconfont icon-sousuo"></i></a>
-				</div>
+				<form class="search" action="search.php" method="get">
+					<input type="text" name="search" placeholder="Search">
+					<button><i class="iconfont icon-sousuo"></i></button>
+				</form>
 				<div class="recommend">
 					<h3>为您推荐</h3>
-					<a href="#">适合家庭的摆台花</a>
-					<a href="#">夏日里的一抹清凉</a>
-					<a href="#">亲临进口花材</a>
+					<?php foreach($recommend as $v) {; ?>
+					<a href="info.php?id=<?php echo $v['id']; ?>&cid=<?php echo $v['cid']; ?>"> <?php echo $v['title']?> </a>
+					<?php }; ?>
 				</div>
-				<a href="#">所有文章</a>
 			</div>
 		</div>
 	</div>

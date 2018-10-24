@@ -1,4 +1,5 @@
 <?php
+include_once "../lib/checklogin.php";
 include_once '../lib/publics.php';
 include_once '../lib/page.php';
 // 每页中需要显示几天内容

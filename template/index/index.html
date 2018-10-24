@@ -8,12 +8,11 @@
 	<!-- banner图 -->
 	<div class="banner">
 		<div class="banner-img">
-			<a href="#" class="banner1">
-				<img src="../static/img/banner1.jpg" alt="">
+			<?php foreach($recommend as $v) {; ?>
+			<a href="info.php?id=<?php echo $v['id']; ?>&cid=<?php echo $v['cid']; ?>" class="banner1">
+				<img src="<?php echo $v['thumb']; ?>" alt="<?php echo $v['title']; ?>">
 			</a>
-			<a href="#" class="banner2">
-				<img src="../static/img/banner2.jpg" alt="">
-			</a>
+			<?php }; ?>
 		</div>
 		<div class="banner-left btn">
 			<i class="iconfont icon-zuo"></i>
@@ -22,76 +21,37 @@
 			<i class="iconfont icon-you"></i>
 		</div>
 		<div class="banner-dian">
+			<?php for($i = 0; $i < count($recommend); $i++) {; ?>
 			<div></div>
-            <span class="animated slideInUp">超值预售，抢占先机</span>
-			<div></div>
-            <span class="animated slideInUp">电竞台式电脑</span>
+			<?php }; ?>
+		</div>
+		<div class="banner-text">
+			<?php foreach($recommend as $v) {; ?>
+			<span class="animated slideInUp"> <?php echo $v['title']; ?> </span>
+			<?php }; ?>
 		</div>
 	</div>
 	<!-- main部分 -->
 	<!-- main素馨花艺 -->
 	<div class="main">
 		<div class="main-top">
-			<h4>核心配件<a href="huayi.html"></a></h4>
-			<p>花艺师与您一同分享素馨花卉给你的生活带去的花香世界。</p>
+			<h4>核心配件<a href="list.php?id=1"></a></h4>
+			<!--<p>这是一段说明</p>-->
 		</div>
 		<div class="main-bottom">
 			<div class="swiper-container main-banner-w">
                 <div class="swiper-wrapper main-banner">
+					<?php foreach($recommend2 as $v) {; ?>
                     <div class="swiper-slide">
-                        <div class="mb1"></div>
-                        <h5>迷你花束</h5>
-                        <p>迷你花束，简洁时尚，选择一束鲜花表达自己的情感，小小花束，大大心意。</p>
-                        <a href="duorou.html">
+                        <img src=" <?php echo $v['thumb']; ?> " alt=" <?php echo $v['title']; ?> ">
+                        <h5> <?php echo $v['title']; ?> </h5>
+                        <p> <?php echo $v['des']; ?> </p>
+                        <a href="info.php?id=<?php echo $v['id']; ?>&cid=<?php echo $v['cid']; ?>">
                             <i class="iconfont icon-shexiangji"></i>
                             <span>查看详情</span>
                         </a>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="mb2"></div>
-                        <h5>小彩瓷随心插</h5>
-                        <p>小彩瓷随意搭配小菊、康乃馨，即便不需要专业的花艺师，也能做出清新脱俗的感觉。</p>
-                        <a href="duorou.html">
-                            <i class="iconfont icon-shexiangji"></i>
-                            <span>查看详情</span>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="mb3"></div>
-                        <h5>插花花篮</h5>
-                        <p>香槟玫瑰、红玫瑰配以红豆，几支康乃馨和黄莺，以手工编织花篮装饰，清新脱俗。</p>
-                        <a href="duorou.html">
-                            <i class="iconfont icon-shexiangji"></i>
-                            <span>查看详情</span>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="mb4"></div>
-                        <h5>迷你花束</h5>
-                        <p>迷你花束，简洁时尚，选择一束鲜花表达自己的情感，小小花束，大大心意。</p>
-                        <a href="duorou.html">
-                            <i class="iconfont icon-shexiangji"></i>
-                            <span>查看详情</span>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="mb5"></div>
-                        <h5>小彩瓷随心插</h5>
-                        <p>小彩瓷随意搭配小菊、康乃馨，即便不需要专业的花艺师，也能做出清新脱俗的感觉。</p>
-                        <a href="duorou.html">
-                            <i class="iconfont icon-shexiangji"></i>
-                            <span>查看详情</span>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="mb6"></div>
-                        <h5>插花花篮</h5>
-                        <p>香槟玫瑰、红玫瑰配以红豆，几支康乃馨和黄莺，以手工编织花篮装饰，清新脱俗。</p>
-                        <a href="duorou.html">
-                            <i class="iconfont icon-shexiangji"></i>
-                            <span>查看详情</span>
-                        </a>
-                    </div>
+                    <?php }; ?>
                 </div>
             </div>
             <div class="swiper-button-prev mainbtn">
@@ -105,120 +65,32 @@
 	<!-- main2素馨花语 -->
 	<div class="main2">
 		<div class="main-top">
-			<h4>主板显卡<a href="huayanhuayu.html"></a></h4>
+			<h4>主板显卡<a href="list.php?id=2"></a></h4>
 		</div>
 		<div class="main2-bottom">
-			<div class="left">
-				<a href="duorou.html" class="m2b1" title="多肉入新家"></a>
+			<?php for($i = 0; $i < count($recommend3); $i++) {; ?>
+			<div class="<?php echo $i%2==0?'left':'right'; ?>">
+				<a href="info.php?id=<?php echo $recommend3[$i]['id']; ?>&cid=<?php echo $recommend3[$i]['cid']; ?>" class="m2b1" title=" <?php echo $recommend3[$i]['title']; ?> ">
+					<img src="<?php echo $recommend3[$i]['thumb']; ?>" alt="<?php echo $recommend3[$i]['title']; ?>">
+				</a>
 				<div class="text">
-					<a href="duorou.html">多肉入新家</a>
-					<p>多肉必须经过一段时间适应期，也就是安全度过缓苗期，就说明她入盆成功，真正进入新家了。首先我们需要晾根.....</p>
+					<a href="info.php?id=<?php echo $recommend3[$i]['id']; ?>&cid=<?php echo $recommend3[$i]['cid']; ?>"> <?php echo $recommend3[$i]['title']; ?> </a>
+					<p> <?php echo $recommend3[$i]['des']; ?> </p>
 					<p>
-						<span>2018-07-15</span>
-						<span>王亚楠</span>
+						<span> <?php echo substr($recommend3[$i]['times'],0,10); ?> </span>
+						<span> <?php echo $recommend3[$i]['author']; ?> </span>
 						<span><i class="iconfont icon-yanjing"></i></span>
-						<span>75</span>
+						<span> <?php echo $recommend3[$i]['count']; ?> </span>
 					</p>
 				</div>
 			</div>
-			<div class="right">
-				<a href="#" class="m2b2" title="爱莲说"></a>
-				<div class="text">
-					<a href="#">爱莲说</a>
-					<p>六月份的尾巴，气候似乎比往年又燥热了些许。花卉市场的鲜切花生的愈发绚丽多姿，不过最夺目的当属那“出淤.....</p>
-					<p>
-						<span>2018-06-30</span>
-						<span>王亚楠</span>
-						<span><i class="iconfont icon-yanjing"></i></span>
-						<span>67</span>
-					</p>
-				</div>
-			</div>
-			<div class="left">
-				<a href="#" class="m2b3" title="花在冬日"></a>
-				<div class="text">
-					<a href="#">花在冬日</a>
-					<p>初雪悄然而至，洋洋洒洒飘了数日，难得天空放晴，这些花儿最让人心心念念了！冬日的花房比起其他季节并没有.....</p>
-					<p>
-						<span>2018-01-08</span>
-						<span>王亚楠</span>
-						<span><i class="iconfont icon-yanjing"></i></span>
-						<span>175</span>
-					</p>
-				</div>
-			</div>
-			<div class="right">
-				<a href="#" class="m2b4" title="最适合教师节的迷你花束"></a>
-				<div class="text">
-					<a href="#">最适合教师节的迷你花束</a>
-			        <p>	最适合教师节的迷你花束在诸多的传统节日中，教师节是一个既令人肃然起敬又饱含慈爱深情的节日。自古以来就有“一日为师终身为父”.....</p>
-					<p>
-						<span>2018-08-14</span>
-						<span>王亚楠</span>
-						<span><i class="iconfont icon-yanjing"></i></span>
-						<span>82</span>
-					</p>
-				</div>
-			</div>
-			<div class="left">
-				<a href="#" class="m2b5" title="秋如黑天鹅般优雅的到来"></a>
-				<div class="text">
-					<a href="#">秋如黑天鹅般优雅的到来</a>
-					<p>伴着街头偶尔飘落的黄叶，和着萧瑟的凉风划过脸颊的不忍，秋正如镜头中低吟的黑天鹅般优雅的到来，不声不响.....</p>
-					<p>
-						<span>2017-09-06</span>
-						<span>王亚楠</span>
-						<span><i class="iconfont icon-yanjing"></i></span>
-						<span>125</span>
-					</p>
-				</div>
-			</div>
-			<div class="right">
-				<a href="#" class="m2b6" title="那些配材花的点睛之笔"></a>
-				<div class="text">
-					<a href="#">那些配材花的点睛之笔</a>
-					<p>在花艺作品的制作中一般都有三个板块融合穿插而成，她们分工明确而又密切合作，她们承认重点花材不可替代的.....</p>
-					<p>
-						<span>2017-08-14</span>
-						<span>王亚楠</span>
-						<span><i class="iconfont icon-yanjing"></i></span>
-						<span>82</span>
-					</p>
-				</div>
-			</div>
-			<div class="left">
-				<a href="#" class="m2b7" title="适合家庭的摆台花"></a>
-				<div class="text">
-					<a href="#">适合家庭的摆台花</a>
-					<p>	适合家庭的摆台花经常会有人来咨询哪些花卉适宜家庭摆台花，既能彰显花的婀娜多姿、楚楚动人，又便于养护，上班族回到家中看.....</p>
-					<p>
-						<span>2017-07-16</span>
-						<span>王亚楠</span>
-						<span><i class="iconfont icon-yanjing"></i></span>
-						<span>125</span>
-					</p>
-				</div>
-			</div>
-			<div class="right">
-				<a href="#" class="m2b8" title="绿萝的养护"></a>
-				<div class="text">
-					<a href="#">绿萝的养护</a>
-					<p>对于花友而言，绿萝可能是养在家中的第一盆绿植。她的新叶是夏日峰回路转的一簇簇清凉，而且大家似乎都看到.....</p>
-					<p>
-						<span>2017-07-13</span>
-						<span>王亚楠</span>
-						<span><i class="iconfont icon-yanjing"></i></span>
-						<span>53</span>
-					</p>
-				</div>
-			</div>
-
+			<?php }; ?>
 		</div>
 	</div>
 <!-- 素馨花卉工作室 -->
 <div class="main3">
 	<div class="main-top">
-		<h4>素馨花卉工作室</h4>
+		<h4>关于我爱DIY</h4>
 	</div>
 	<div class="text">
 		<h5> <?php echo $header['des']?> </h5>
