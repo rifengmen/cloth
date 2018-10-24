@@ -37,7 +37,7 @@
                         <?php $list = mysqli_query($mysql,"select * from category where pid=$ids"); ?>
                         <?php foreach($list as $val) {; ?>
                         <li>
-                            <a href="#"> <?php echo $val['title'] ?> </a>
+                            <a href="list.php?id=<?php echo $val['pid']?>"> <?php echo $val['title'] ?> </a>
                         </li>
                         <?php }; ?>
                     </ul>
